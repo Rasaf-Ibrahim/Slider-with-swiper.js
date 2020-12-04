@@ -1,0 +1,76 @@
+/*  Swiper.js */
+
+   
+    .swiper-container1{
+      width: 100%;
+      padding-top: 50px;
+      padding-bottom: 50px;
+    }
+
+    .swiper-slide1 {
+      background-position: center;
+      background-size: cover;
+      width: 300px;
+      height: 300px;
+
+    }
+  
+/* (End) Swiper.js */
+
+
+
+
+/* swiper.js - Parallax Scrolling */
+
+.swiper-container2{
+  position: relative;
+  height: 100%;
+  background: #eee;
+  font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+  font-size: 14px;
+  color: #000;
+  margin: 0;
+  padding: 0;
+
+width: 100%;
+height: 100%;
+background: #000;
+}
+
+.swiper-slide2 {
+font-size: 18px;
+color: white;
+-webkit-box-sizing: border-box;
+box-sizing: border-box;
+padding: 40px 60px;
+}
+
+.parallax-bg {
+position: absolute;
+left: 0;
+top: 0;
+width: 130%;
+height: 100%;
+-webkit-background-size: cover;
+background-size: cover;
+background-position: center;
+
+}
+
+.swiper-slide .title {
+font-size: 41px;
+font-weight: 300;
+}
+
+.swiper-slide .subtitle {
+font-size: 21px;
+}
+
+.swiper-slide .text {
+font-size: 14px;
+max-width: 400px;
+line-height: 1.3;
+
+}
+
+/*  (END) swiper.js - Parallax Scrolling */
