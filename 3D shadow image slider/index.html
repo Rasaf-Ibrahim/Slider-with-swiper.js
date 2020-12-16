@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <title>Swiper demo</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1">
+
+  <!-- Link Swiper's CSS -->
+  <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.css">
+  <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css">
+
+  <!-- Link CSS -->
+  <link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+
+
+  
+  <!-- '923' swiper.js - 3D Shadow image Slider -->
+
+<!-- Changing classes of swiper slider is not possible, so I have added classes with them with the same name ('-923' in the end) in HTML and then I have replaced swiper slider classes on CSS,JS file with the newly created related class so that multiple swiper slider can be used in a single page. To know more about having multiple swiper slider on a single page, follow this link(https://stackoverflow.com/questions/32118999/how-can-i-have-multiple-swiper-slideshows-on-a-single-page/65145019#65145019).-->
+
+
+  <div class="swiper-container swiper-container-923">
+    <div class="swiper-wrapper swiper-wrapper-923">
+      <div class="swiper-slide swiper-slide-923" style="background-image:url(https://source.unsplash.com/800x600/?car)"></div>
+      <div class="swiper-slide swiper-slide-923" style="background-image:url(https://source.unsplash.com/800x600/?tree)"></div>
+      <div class="swiper-slide swiper-slide-923" style="background-image:url(https://source.unsplash.com/800x600/?tiger)"></div>
+      <div class="swiper-slide swiper-slide-923" style="background-image:url(https://source.unsplash.com/800x600/?water)"></div>
+      <div class="swiper-slide swiper-slide-923" style="background-image:url(https://source.unsplash.com/800x600/?dog)"></div>
+    </div>
+
+    <!-- Warning: Don't remove this pagination div. By default, this swiper.js had pagination option. Even though I have removed pagination functionality from javascript portion, but removing 'pagination' div from HTML can create  some css error! -->
+  <div class="swiper-pagination swiper-pagination-923 swiper-pagination-white"></div>
+</div>
+
+
+  <!-- (End) '923' swiper.js - 3D Shadow image Slider -->
+
+
+
+  <!-- Swiper's js  -->
+  <script src="https://unpkg.com/swiper/swiper-bundle.js"></script>
+  <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+
+  <!--  JS -->
+  <script src="app.js"></script>
+
+</body>
+
+</html>
