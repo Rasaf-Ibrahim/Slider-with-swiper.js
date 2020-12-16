@@ -1,0 +1,18 @@
+/*  '923' swiper.js - 3D Shadow image Slider */
+   
+    .swiper-container-923 {
+      width: 100%;
+      padding-top: 50px;
+      padding-bottom: 200px;
+      background: black;
+    }
+
+    .swiper-slide-923 {
+      background-position: center;
+      background-size: cover;
+      width: 300px;
+      height: 300px;
+-webkit-box-reflect: below 1px linear-gradient(transparent, transparent,#0006);
+}
+  
+/* (End) '923' swiper.js - 3D Shadow image Slider */
